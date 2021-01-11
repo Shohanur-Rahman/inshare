@@ -1,0 +1,438 @@
+/**
+*
+* parsley form validate
+*
+*
+*/
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+    margin: 2px 0 3px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    opacity: 0;
+    color: #B94A48;
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+    .parsley-errors-list.filled {
+        opacity: 1;
+    }
+
+
+/**
+*
+*End parsley style
+*
+*/
+
+img.logo-img {
+    height: 63px;
+    width: auto !important;
+}
+.upload-preview img {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+}
+.hdn-uploder {
+    display: none;
+}
+.table-btn i.mdi {
+    font-size: 20px !important;
+    color: #fff;
+}
+.toggle-switch .toggle-slider{
+    background: red;
+}
+.tbl-icon{
+    font-size: 25px;
+}
+.table-btn {
+    padding: 3px 7px;
+}
+.full-width{
+    width: 100%;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    font-size: 15px;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+    font-size: 15px;
+}
+
+.hidden-field{
+    display: none;;
+}
+.cv_label{
+    cursor: pointer;
+}
+.directory-list{
+    list-style: none;
+}
+.directory-list li {
+    margin-bottom: 6px;
+}
+.directory-list li .btn {
+    padding: 3px 15px;
+    width: 100%;
+    text-align: left;
+}
+
+span.directory-icon {
+    margin-right: 10px;
+}
+
+.card-header.full-width {
+    width: 100%;
+}
+
+.directory-nav li.nav-item{
+    width: 100%;
+}
+
+h3.directory-header {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    background: #4540f7;
+    padding: 10px 45px;
+    color: #fff;
+}
+
+form.full-width-form {
+    width: 100%;
+}
+span.directory-action {
+    color: #fff;
+    display: inline-block;
+    right: 0;
+}
+
+
+
+
+
+
+
+.tab {
+  float: left;
+  background-color: #abaadc;
+  width: 30%;
+  height: 300px;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #fff;
+}
+
+.tab button:hover {
+  background-color: #3a34f6;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
+.dummy-nav-tab{
+    display: none;
+}
+
+span.directory-action .form-div{
+    float: right;
+}
+span.directory-action .form-div .full-width-form {
+    float: left;
+    display: block;
+    width: 160px;
+}
+span.directory-breadcrumb {
+    float: left;
+    padding: 17px;
+}
+
+.file-line {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+.file-line.first {
+    width: 89%;
+}
+
+.breadcrumb.breadcrumb-custom.center-breadcrumb{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -42%);
+}
+
+.breadcrumb-area {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 42px;
+}
+
+
+.counter-ui {
+    color: #fff;
+    display: flex;
+}
+
+.counter-ui .counter-number {
+    font-size: 45px;
+}
+
+span.count-number {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+span.count-folder {
+    font-size: 22px;
+    padding-top: 21px;
+}
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+.tree_toggler {
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: #eee;
+}
+button.btn-directory-file {
+    border: none;
+}
+
+.center-breadcrumb li.breadcrumb-item.ra_na_tab_controller {
+    background: none !important;
+    cursor: pointer;
+}
+.breadcrumb.breadcrumb-custom .breadcrumb-item.active {
+    background: #dbe3e6 !important;
+}
+
+.download-folder-form {
+    float: right;
+    margin-top: -8px;
+}
+
+button.link-btn-form {
+    border: none;
+    padding: 0;
+    margin: 1px;
+    font-size: 22px;
+    background: none;
+}
+.file-list li {
+    margin-bottom: 10px;
+}
+span.header-titile {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    /*color: #69993F;*/
+    color: black;
+    text-shadow: 1px 2px #ccc;
+}
+.card{
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    margin-bottom: 25px;
+}
+.nestedx li {
+    border-bottom: 1px solid #eee;
+}
+ul.center-tab li {
+  display: inline-block;
+  cursor: pointer;
+  background: #eee;
+  padding: 5px;
+}
+
+ul.center-tab{
+    display: block;
+    width: 20%;
+    margin: 9px auto;
+    margin-bottom: 50px;
+}
+ul.center-tab li.active {
+    background: #221E6E;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-show {
+    width: 90%;
+    transform: translate(10px, 25px);
+}
+.application-box {
+    max-width: 305px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mdi-delete-forever {
+    color: red;
+}
+.mdi-folder-download {
+    color: #69993F;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
+    background: transparent;
+    color: #69993F;
+}
+
+.btn-primary, .wizard > .actions a {
+    color: #fff;
+    background-color: #69993F;
+    border-color: #69993F;
+}
+.btn-primary:hover, .wizard > .actions a:hover {
+    color: #fff;
+    background-color: #538627;
+    border-color: #538627;
+}
+.sidebar .nav .nav-item.active > .nav-link i, .sidebar .nav .nav-item.active > .nav-link .menu-title, .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
+    color: #69993F;
+}
+.file-list-div form {
+    display: inline;
+}
+.file-list-div {
+    background: #eee;
+}
+
+
+/*
+*
+*
+*
+* Responsive Style * * */
+
+@media only screen and (max-width: 1365px) {
+
+    ul.center-tab {
+        width: 38%;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+  span.header-titile{
+    font-size: 25px;
+  }
+
+  ul.center-tab {
+    width: 38%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  span.header-titile{
+    font-size: 20px;
+  }
+  ul.center-tab{
+    width: 90%;
+  }
+  .btn-show {
+      width: 90%;
+      transform: translate(10px, 2px);
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+  span.header-titile{
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+.btn-directory-file{
+    margin-bottom:5px !important;
+}
+span.directory-right {
+    float: right;
+}
+form.three-four {
+    width: 75%;
+    float: left;
+    display: block;
+}
+form.one-four {
+    width: 25%;
+    float: left;
+    display: block;
+}
+.tree-list li{
+overflow: hidden;
+}
+form.one-four .directory-right{
+    margin-top: -10px;
+}
